@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpeningHouse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>OpeningHouse</h1>
+        <div class="concentric-circles">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="post_job.html">Post a Job</a></li>
+          <li><a href="jobs.html">View Jobs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home-section">
+        <h2>Welcome to OpeningHouse</h2>
+        <p>Your gateway to finding your next job opportunity.</p>
+        <form action="search_jobs.php" method="GET" class="search-form">
+          <input
+            type="text"
+            name="query"
+            placeholder="Search for jobs"
+            required
+          />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 OpeningHouse</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

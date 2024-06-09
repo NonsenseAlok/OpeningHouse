@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Jobs - OpeningHouse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>OpeningHouse</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="post_job.html">Post a Job</a></li>
+          <li><a href="jobs.html">View Jobs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="software-jobs" class="job-section">
+        <h2>Software Jobs</h2>
+        <div class="job-box">
+          <?php include 'view_jobs.php'; ?>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 OpeningHouse</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
